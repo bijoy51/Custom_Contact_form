@@ -1,0 +1,47 @@
+/*
+Theme Name: Static Contact Form
+Author: Nayem Hasan Bijoy
+Version: 1.0
+Description: A simple WordPress theme with a static contact form.
+*/
+
+body {
+    font-family: sans-serif;
+    background: #fff;
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit {
+    background: teal;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
